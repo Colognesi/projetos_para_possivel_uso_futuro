@@ -4,10 +4,9 @@ Codigo realizado para o calculo de IR com base no salario fornecido.
 
 
 def retorna_Salario(salario, salario_Bruto):
-    d, e = salario, salario_Bruto
-    print(
-        "O seu salario bruto é de: {}, voce recebeu um total de desconto do INSS de: {}".format(d, round(e, 2)))
-    return d, e
+    return print(
+        "O seu salario bruto é de: {}, voce recebeu um total de desconto do INSS de: {}".format(salario, round(
+            salario_Bruto, 2)))
 
 
 def total(salario, salario_Bruto):
